@@ -22,7 +22,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 # Tasks
 ### 0. Basic annotations - add
 
-Write a type-annotated function add that takes a float a and a float b as arguments and returns their sum as a float.
+Write a type-annotated function **add** that takes a float **a** and a float **b** as arguments and returns their sum as a float.
 ```
 bob@dylan:~$ cat 0-main.py
 #!/usr/bin/env python3
@@ -39,7 +39,7 @@ True
    
 ### 1. Basic annotations - concat
 
-Write a type-annotated function concat that takes a string str1 and a string str2 as arguments and returns a concatenated string
+Write a type-annotated function **concat** that takes a string **str1** and a string **str2** as arguments and returns a concatenated string
 ```
 bob@dylan:~$ cat 1-main.py
 #!/usr/bin/env python3
@@ -59,7 +59,7 @@ True
    
 ### 2. Basic annotations - floor
 
-Write a type-annotated function floor which takes a float n as argument and returns the floor of the float.
+Write a type-annotated function **floor** which takes a float **n** as argument and returns the floor of the float.
 ```
 bob@dylan:~$ cat 2-main.py
 #!/usr/bin/env python3
@@ -83,7 +83,7 @@ floor(3.14) returns 3, which is a <class 'int'>
    
 ### 3. Basic annotations - to string
 
-Write a type-annotated function to_str that takes a float n as argument and returns the string representation of the float.
+Write a type-annotated function **to_str** that takes a float **n** as argument and returns the string representation of the float.
 ```
 bob@dylan:~$ cat 3-main.py
 #!/usr/bin/env python3
@@ -105,10 +105,10 @@ to_str(3.14) returns 3.14, which is a <class 'str'>
 
 Define and annotate the following variables with the specified values:
 
-a, an integer with a value of 1
-pi, a float with a value of 3.14
-i_understand_annotations, a boolean with a value of True
-school, a string with a value of “Holberton”
+**a**, an integer with a value of 1
+**pi**, a float with a value of 3.14
+**i_understand_annotations**, a boolean with a value of True
+**school**, a string with a value of “Holberton”
 ```
 bob@dylan:~$ cat 4-main.py
 #!/usr/bin/env python3
@@ -133,7 +133,7 @@ school is a <class 'str'> with a value of Holberton
    
 ### 5. Complex types - list of floats
 
-Write a type-annotated function sum_list which takes a list input_list of floats as argument and returns their sum as a float.
+Write a type-annotated function **sum_list** which takes a list **input_list** of floats as argument and returns their sum as a float.
 ```
 bob@dylan:~$ cat 5-main.py
 #!/usr/bin/env python3
@@ -155,7 +155,7 @@ sum_list(floats) returns 6.470000000000001 which is a <class 'float'>
    
 ### 6. Complex types - mixed list
 
-Write a type-annotated function sum_mixed_list which takes a list mxd_lst of integers and floats and returns their sum as a float.
+Write a type-annotated function **sum_mixed_list** which takes a list **mxd_lst** of integers and floats and returns their sum as a float.
 ```
 bob@dylan:~$ cat 6-main.py
 #!/usr/bin/env python3
@@ -177,7 +177,7 @@ sum_mixed_list(mixed) returns 679.13 which is a <class 'float'>
    
 ### 7. Complex types - string and int/float to tuple
 
-Write a type-annotated function to_kv that takes a string k and an int OR float v as arguments and returns a tuple. The first element of the tuple is the string k. The second element is the square of the int/float v and should be annotated as a float.
+Write a type-annotated function **to_kv** that takes a string **k** and an int OR float **v** as arguments and returns a tuple. The first element of the tuple is the string **k**. The second element is the square of the int/float **v** and should be annotated as a float.
 ```
 bob@dylan:~$ cat 7-main.py
 #!/usr/bin/env python3
@@ -197,7 +197,7 @@ bob@dylan:~$ ./7-main.py
 
 ### 8. Complex types - functions
 
-Write a type-annotated function make_multiplier that takes a float multiplier as argument and returns a function that multiplies a float by multiplier.
+Write a type-annotated function **make_multiplier** that takes a float **multiplier** as argument and returns a function that multiplies a float by **multiplier**.
 ```
 bob@dylan:~$ cat 8-main.py
 #!/usr/bin/env python3
@@ -290,7 +290,7 @@ return: typing.Union[typing.Any, ~T]
    
 # 12. Type Checking
 
-Use mypy to validate the following piece of code and apply any necessary changes.
+Use **mypy** to validate the following piece of code and apply any necessary changes.
 ```
 def zoom_array(lst: Tuple, factor: int = 2) -> Tuple:
     zoomed_in: Tuple = [
