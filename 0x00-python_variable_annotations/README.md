@@ -105,10 +105,10 @@ to_str(3.14) returns 3.14, which is a <class 'str'>
 
 Define and annotate the following variables with the specified values:
 
-**a**, an integer with a value of 1
-**pi**, a float with a value of 3.14
-**i_understand_annotations**, a boolean with a value of True
-**school**, a string with a value of “Holberton”
+* **a**, an integer with a value of 1
+* **pi**, a float with a value of 3.14
+* **i_understand_annotations**, a boolean with a value of True
+* **school**, a string with a value of “Holberton”
 ```
 bob@dylan:~$ cat 4-main.py
 #!/usr/bin/env python3
