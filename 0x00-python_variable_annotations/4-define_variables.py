@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-'''Task 4's module.
-'''
+""" 4. Define variables
+"""
 
 
 a: int = 1
